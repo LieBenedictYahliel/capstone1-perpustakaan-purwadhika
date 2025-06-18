@@ -103,11 +103,12 @@ def menu_utama_perpustakaan():
     
     while True:
         pilihan_angka=input("Masukkan pilihan dengan angka(1-5): ")
-        if pilihan_angka in ("1","2","3","4","5"):
+        if not pilihan_angka.isdigit:
+            print("Input tidak sesuai dengan petunjuk!")
+            continue
+        else:
             pilihan_angka_int=int(pilihan_angka)
             break
-        else:
-            print("Input tidak sesuai dengan petunjuk!")
     
     while True:
         if pilihan_angka_int==1:
