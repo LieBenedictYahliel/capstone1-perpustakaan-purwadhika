@@ -203,11 +203,13 @@ def menu_revision_data_buku():
         print(i)
     while True:
         pilihan_angka = input("Masukkan pilihan dengan angka(1-8): ")
-        if pilihan_angka in ("1", "2", "3", "4", "5", "6", "7", "8"):
+        if not pilihan_angka.isdigit():
+            print("Input tidak sesuai dengan petunjuk. Ulangi lagi")
+            continue
+        else:
             pilihan_angka_int=int(pilihan_angka)
             break
-        else:
-            print("Input tidak sesuai dengan petunjuk. Ulangi lagi")
+            
     while True:
         if pilihan_angka_int==1:
             menu_ganti_judul_buku()
