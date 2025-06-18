@@ -61,7 +61,7 @@ Capstone ini ditujukan untuk menunjukkan kemampuan dasar pemrograman Python, khu
 - Menampilkan data dalam bentuk terstruktur
 - Melakukan operasi CRUD (Create, Read, Update, Delete)
 
-## Informasi Pengembang
+## Informasi Peserta
 
 Nama: JCDS 2702- Lie Benedict Yahliel
 Tanggal Selesai: Juni 2025  
